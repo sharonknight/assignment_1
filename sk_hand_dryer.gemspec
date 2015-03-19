@@ -13,9 +13,9 @@ Gem::Specification.new do |spec|
     spec.metadata['allowed_push_host'] = ": Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
   end
 
-  spec.summary       = %q{: Dry your hands from the terminal!.}
-  spec.description   = %q{: Sechez vos mains du terminale!}
-  spec.homepage      = ": Put your gem's website or public repo URL here."
+  spec.summary       = %q{Dry your hands from the terminal!.}
+  spec.description   = %q{Sechez vos mains du terminale!}
+  spec.homepage      = "http:/www.github.com/sharonknight"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
